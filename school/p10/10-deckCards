@@ -1,0 +1,6 @@
+class Deck:
+    def init_(self):
+        self.cards = []
+        for suit in range(4):
+            for rank in range (1, 14):
+                self.cards.append(Card(suit, rank))
